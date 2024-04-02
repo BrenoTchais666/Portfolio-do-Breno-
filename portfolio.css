@@ -1,0 +1,52 @@
+body {
+    font-family: Optima, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.botao{
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: scale(2.2)
+}
+
+.botaoC{
+    text-align: center;
+}
+
+
